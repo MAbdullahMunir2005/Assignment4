@@ -1,0 +1,95 @@
+body{
+    font-family: serif;
+}
+#nev11{
+    background-color: black;
+    color: white;
+}
+#div1{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+#div2{
+    text-align: center;
+}
+.imgman{
+    border-radius: 50%;
+    width: 100px;
+    height: 75px;
+}
+.buttons{
+    width: 25px;
+    border: 1px solid black;
+}
+.botton{
+    height: 50px;
+}
+.pict{
+    text-align: center;
+    font-weight: 900;
+}
+.listeditems{
+    list-style: square;
+}
+.imagee{
+    border: 0.5px solid black;
+    padding: 10px;
+}
+.imagee1{
+    width: 20px;
+}
+.eyes{
+    margin-top: -40px;
+    width: 50px;
+    height: 40px;
+}
+.divimg{
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+}
+.divimg1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.hr1{
+    text-decoration:dotted;
+}
+.colom{
+    text-align: center;
+}
+@media screen and (max-width:749px) {
+    .divimg1{
+        display: block;
+    }
+}
+@media screen and (max-width:415px) {
+    .divimg1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.imgNR{
+    width: 240px;
+    height: 150px;
+}
+.btnsignin{
+    color: white;
+}
+.btnsignin:hover{
+    color: white;
+
+}
+#Email{
+    padding: 5px 20px;
+    padding-bottom: 6px;
+    margin-right: -5px;
+}
+.divimg2{
+    border: 1px solid black;
+    border-top: 5px solid black;
+    text-align: center;
+    padding-bottom: 30px;
+}
